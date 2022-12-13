@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { AuthResponse } from '../models/response/AuthResponse';
 
-export const API_URL =`http://auth-server-mu.vercel.app/api`
+export const API_URL =`https://auth-server-mu.vercel.app/api`
 
 const $api = axios.create({
     withCredentials: true,
